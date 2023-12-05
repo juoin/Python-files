@@ -1,0 +1,6 @@
+soil=open('data.txt','a')
+for i in range(2):
+    name = input("Enter the name- ")
+    age = int(input('Enter your age- '))
+    qualification = input("Enter your qualifications- ")
+    soil.write(f"{i}My name is {name} and my age is {age} and my qualification is {qualification}\n")
