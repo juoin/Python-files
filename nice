@@ -1,0 +1,6 @@
+list = ["January","February","March","April","May","June","July","August","September","October","November","December"]
+a = "12162023"
+month = a[:2]
+date = a[2:4]
+year = a[4:]
+print(list[int(month)-1], date,",", year)
